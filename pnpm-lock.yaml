@@ -62,8 +62,8 @@ importers:
         specifier: 5.3.3
         version: 5.3.3
       vite:
-        specifier: ^4.5.0
-        version: 4.5.2(@types/node@20.11.19)
+        specifier: ^4.5.5
+        version: 4.5.5(@types/node@20.11.19)
 
   examples/homestar-gateway:
     dependencies:
@@ -80,8 +80,8 @@ importers:
         specifier: workspace:^
         version: link:../../packages/homestar
       '@hono/node-server':
-        specifier: ^1.8.1
-        version: 1.8.1
+        specifier: ^1.10.1
+        version: 1.10.1
       '@paulmillr/qr':
         specifier: ^0.1.1
         version: 0.1.1
@@ -98,8 +98,8 @@ importers:
         specifier: 0.2.0
         version: 0.2.0
       hono:
-        specifier: ^4.0.5
-        version: 4.0.5
+        specifier: ^4.5.8
+        version: 4.5.8
       iso-web:
         specifier: ^1.0.4
         version: 1.0.4
@@ -152,10 +152,10 @@ importers:
         version: 4.10.2
       unws:
         specifier: ^0.2.4
-        version: 0.2.4(ws@8.16.0)
+        version: 0.2.4(ws@8.17.1)
       ws:
-        specifier: ^8.16.0
-        version: 8.16.0
+        specifier: ^8.17.1
+        version: 8.17.1
 
   packages/client:
     dependencies:
@@ -368,10 +368,10 @@ importers:
         version: 4.10.2
       unws:
         specifier: ^0.2.4
-        version: 0.2.4(ws@8.16.0)
+        version: 0.2.4(ws@8.17.1)
       ws:
-        specifier: ^8.16.0
-        version: 8.16.0
+        specifier: ^8.17.1
+        version: 8.17.1
 
   packages/ucan:
     dependencies:
@@ -1425,8 +1425,8 @@ packages:
     resolution: {integrity: sha512-+KpH+QxZU7O4675t3mnkQKcZZg56u+K/Ct2K+N2AZYNVK8kyeo/bI18tI8aPm3tvNNRyTWfj6s5tnGNlcbQRsA==}
     engines: {node: '>=14'}
 
-  /@hono/node-server@1.8.1:
-    resolution: {integrity: sha512-9ondWs/5EuyZOd/iyiRp0GQfMEq+IA+IbV8Wy2bgdr5+cC55I3xbQrqtXKprw7jJhfvq3IVw7ALiuvCEmLdCAA==}
+  /@hono/node-server@1.10.1:
+    resolution: {integrity: sha512-5BKW25JH5PQKPDkTcIgv3yNUPtOAbnnjFFgWvIxxAY/B/ZNeYjjWoAeDmqhIiCgOAJ3Tauuw+0G+VainhuZRYQ==}
     engines: {node: '>=18.14.1'}
     dev: false
 
@@ -4866,8 +4866,8 @@ packages:
     requiresBuild: true
     optional: true
 
-  /hono@4.0.5:
-    resolution: {integrity: sha512-6LEGL1Pf3+dLjVA0NJxAB/3FJ6S3W5qxd/XOG7Wl9YOrpMRZT9lt83R4Ojs8dO6GbAUSutI7zTyjStnSn9sbEg==}
+  /hono@4.5.8:
+    resolution: {integrity: sha512-pqpSlcdqGkpTTRpLYU1PnCz52gVr0zVR9H5GzMyJWuKQLLEBQxh96q45QizJ2PPX8NATtz2mu31/PKW/Jt+90Q==}
     engines: {node: '>=16.0.0'}
     dev: false
 
@@ -5419,8 +5419,8 @@ packages:
       debug: 4.3.4(supports-color@8.1.1)
       retry: 0.13.1
       typescript-event-target: 1.1.0
-      unws: 0.2.4(ws@8.16.0)
-      ws: 8.16.0
+      unws: 0.2.4(ws@8.17.1)
+      ws: 8.17.1
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -7775,13 +7775,13 @@ packages:
       pathe: 1.1.2
     dev: false
 
-  /unws@0.2.4(ws@8.16.0):
+  /unws@0.2.4(ws@8.17.1):
     resolution: {integrity: sha512-/N1ajiqrSp0A/26/LBg7r10fOcPtGXCqJRJ61sijUFoGZMr6ESWGYn7i0cwr7fR7eEECY5HsitqtjGHDZLAu2w==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       ws: '*'
     dependencies:
-      ws: 8.16.0
+      ws: 8.17.1
 
   /update-browserslist-db@1.0.13(browserslist@4.22.3):
     resolution: {integrity: sha512-xebP81SNcPuNpPP3uzeW1NYXxI3rxyJzF3pD6sH4jE7o/IX+WtSpwnVU+qIsDPyk0d3hmFQ7mjqc6AtV604hbg==}
@@ -7834,8 +7834,8 @@ packages:
   /varint@6.0.0:
     resolution: {integrity: sha512-cXEIW6cfr15lFv563k4GuVuW/fiwjknytD37jIOLSdSWuOI6WnO/oKwmP2FQTU2l01LP8/M5TSAJpzUaGe3uWg==}
 
-  /vite@4.5.2(@types/node@20.11.19):
-    resolution: {integrity: sha512-tBCZBNSBbHQkaGyhGCDUGqeo2ph8Fstyp6FMSvTtsXeZSPpSMGlviAOav2hxVTqFcx8Hj/twtWKsMJXNY0xI8w==}
+  /vite@4.5.5(@types/node@20.11.19):
+    resolution: {integrity: sha512-ifW3Lb2sMdX+WU91s3R0FyQlAyLxOzCSCP37ujw0+r5POeHPwe6udWVIElKQq8gk3t7b8rkmvqC6IHBpCff4GQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -7992,8 +7992,8 @@ packages:
   /wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
-  /ws@8.16.0:
-    resolution: {integrity: sha512-HS0c//TP7Ina87TfiPUz1rQzMhHrl/SG2guqRcTOIUYD2q8uhUdNHZYJUaQ8aTGPzCh+c6oawMKW35nFl1dxyQ==}
+  /ws@8.17.1:
+    resolution: {integrity: sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
